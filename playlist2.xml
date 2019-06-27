@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ximpel>
+    <playlist>
+	<variable id="age" operation="set" value="0" />
+	<variable id="sex" operation="set" value="0" />
+	<variable id="education" operation="set" value="0" />
+	<variable id="sim1" operation="set" value="0" />
+	<variable id="sim2" operation="set" value="0" />
+	<variable id="sim3" operation="set" value="0" />
+	<variable id="sim4" operation="set" value="0" />
+	<variable id="sim5" operation="set" value="0" />
+	<variable id="sim6" operation="set" value="0" />
+	<variable id="sim7" operation="set" value="0" />
+	<variable id="sim8" operation="set" value="0" />
+	<variable id="sim9" operation="set" value="0" />
+	<variable id="sim10" operation="set" value="0" />
+	<variable id="sim11" operation="set" value="0" />
+	<variable id="sim12" operation="set" value="0" />
+	<variable id="sim13" operation="set" value="0" />
+	<variable id="sim14" operation="set" value="0" />
+	<variable id="sim15" operation="set" value="1" />
+
+
+	
+
+		<subject id="start">
+			<media>
+			<image src="media/Start.png">
+						<overlay text="Start" height="100px" width="400px" leadsTo="ask_age" x="750px" y="850px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial"/>
+						
+				
+					</image>
+					
+			</media>
+		</subject>
+		
+			<subject id="ask_age">
+			<media>
+			<image src="media/age.png">
+			<overlay text="◄Previous" leadsTo="start" height="60px" width="200px" x="50px" y="800px" backgroundColor="blue"  shape = "rectangle" fontSize = "22pt" alpha = "0.4" hoverAlpha = "0.8" fontFamily = "arial" >
+						
+						</overlay>
+				<overlay text="under 15" height="60px" width="100px" leadsTo="ask_sex" x="700px" y="199px" backgroundColor="blue"  shape = "rectangle" fontSize = "16pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="14"/>
+					</overlay>
+					<overlay text="15" height="60px" width="100px" leadsTo="ask_sex" x="700px" y="260px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="15"/>
+					</overlay>
+					<overlay text="16" height="60px" width="100px" leadsTo="ask_sex" x="700px" y="321px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="16"/>
+					</overlay>
+					<overlay text="17" height="60px" width="100px" leadsTo="ask_sex" x="700px" y="382px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="17"/>
+					</overlay>
+					<overlay text="18" height="60px" width="100px" leadsTo="ask_sex" x="700px" y="443px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="18"/>
+					</overlay>
+					<overlay text="19" height="60px" width="100px" leadsTo="ask_sex" x="700px" y="504px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="19"/>
+					</overlay>
+					<overlay text="20" height="60px" width="100px" leadsTo="ask_sex" x="700px" y="565px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="20"/>
+					</overlay>
+					<overlay text="21" height="60px" width="100px" leadsTo="ask_sex" x="700px" y="626px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="21"/>
+					</overlay>
+					<overlay text="22" height="60px" width="100px" leadsTo="ask_sex" x="700px" y="687px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="22"/>
+					</overlay>
+					<overlay text="23" height="60px" width="100px" leadsTo="ask_sex" x="700px" y="748px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="23"/>
+					</overlay>
+					<overlay text="24" height="60px" width="100px" leadsTo="ask_sex" x="700px" y="809px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="24"/>
+					</overlay>
+					<overlay text="25" height="60px" width="100px" leadsTo="ask_sex" x="700px" y="870px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="25"/>
+					</overlay>
+					<overlay text="26" height="60px" width="100px" leadsTo="ask_sex" x="801px" y="199px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="26"/>
+					</overlay>
+					<overlay text="27" height="60px" width="100px" leadsTo="ask_sex" x="801px" y="260px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="27"/>
+					</overlay>
+					<overlay text="28" height="60px" width="100px" leadsTo="ask_sex" x="801px" y="321px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="28"/>
+					</overlay>
+					<overlay text="29" height="60px" width="100px" leadsTo="ask_sex" x="801px" y="382px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="29"/>
+					</overlay>
+					<overlay text="30" height="60px" width="100px" leadsTo="ask_sex" x="801px" y="443px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="30"/>
+					</overlay>
+					<overlay text="31" height="60px" width="100px" leadsTo="ask_sex" x="801px" y="504px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="31"/>
+					</overlay>
+					<overlay text="32" height="60px" width="100px" leadsTo="ask_sex" x="801px" y="565px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="32"/>
+					</overlay>
+					<overlay text="33" height="60px" width="100px" leadsTo="ask_sex" x="801px" y="626px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="33"/>
+					</overlay>
+					<overlay text="34" height="60px" width="100px" leadsTo="ask_sex" x="801px" y="687px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="34"/>
+					</overlay>
+					<overlay text="35" height="60px" width="100px" leadsTo="ask_sex" x="801px" y="748px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="35"/>
+					</overlay>
+					<overlay text="36" height="60px" width="100px" leadsTo="ask_sex" x="801px" y="809px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="36"/>
+					</overlay>
+					<overlay text="37" height="60px" width="100px" leadsTo="ask_sex" x="801px" y="870px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="37"/>
+					</overlay>
+					<overlay text="38" height="60px" width="100px" leadsTo="ask_sex" x="902px" y="199px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="38"/>
+					</overlay>
+					<overlay text="39" height="60px" width="100px" leadsTo="ask_sex" x="902px" y="260px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="39"/>
+					</overlay>
+					<overlay text="40" height="60px" width="100px" leadsTo="ask_sex" x="902px" y="321px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="40"/>
+					</overlay>
+					<overlay text="41" height="60px" width="100px" leadsTo="ask_sex" x="902px" y="382px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="41"/>
+					</overlay>
+					<overlay text="42" height="60px" width="100px" leadsTo="ask_sex" x="902px" y="443px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="42"/>
+					</overlay>
+					<overlay text="43" height="60px" width="100px" leadsTo="ask_sex" x="902px" y="504px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="43"/>
+					</overlay>
+					<overlay text="44" height="60px" width="100px" leadsTo="ask_sex" x="902px" y="565px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="44"/>
+					</overlay>
+					<overlay text="45" height="60px" width="100px" leadsTo="ask_sex" x="902px" y="626px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">c
+					<variable id="age" operation="add" value="45"/>
+					</overlay>
+					<overlay text="46" height="60px" width="100px" leadsTo="ask_sex" x="902px" y="687px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="46"/>
+					</overlay>
+					<overlay text="47" height="60px" width="100px" leadsTo="ask_sex" x="902px" y="748px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="47"/>
+					</overlay>
+					<overlay text="48" height="60px" width="100px" leadsTo="ask_sex" x="902px" y="809px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="48"/>
+					</overlay>
+					<overlay text="49" height="60px" width="100px" leadsTo="ask_sex" x="902px" y="870px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="49"/>
+					</overlay>
+					<overlay text="50" height="60px" width="100px" leadsTo="ask_sex" x="1003px" y="199px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="50"/>
+					</overlay>
+					<overlay text="51" height="60px" width="100px" leadsTo="ask_sex" x="1003px" y="260px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="51"/>
+					</overlay>
+					<overlay text="52" height="60px" width="100px" leadsTo="ask_sex" x="1003px" y="321px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="52"/>
+					</overlay>
+					<overlay text="53" height="60px" width="100px" leadsTo="ask_sex" x="1003px" y="382px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="53"/>
+					</overlay>
+					<overlay text="54" height="60px" width="100px" leadsTo="ask_sex" x="1003px" y="443px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="54"/>
+					</overlay>
+					<overlay text="55" height="60px" width="100px" leadsTo="ask_sex" x="1003px" y="504px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="55"/>
+					</overlay>
+					<overlay text="56" height="60px" width="100px" leadsTo="ask_sex" x="1003px" y="565px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="56"/>
+					</overlay>
+					<overlay text="57" height="60px" width="100px" leadsTo="ask_sex" x="1003px" y="626px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="57"/>
+					</overlay>
+					<overlay text="58" height="60px" width="100px" leadsTo="ask_sex" x="1003px" y="687px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="58"/>
+					</overlay>
+					<overlay text="59" height="60px" width="100px" leadsTo="ask_sex" x="1003px" y="748px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="59"/>
+					</overlay>
+					<overlay text="60" height="60px" width="100px" leadsTo="ask_sex" x="1003px" y="809px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="60"/>
+					</overlay>
+					<overlay text="61" height="60px" width="100px" leadsTo="ask_sex" x="1003px" y="870px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="61"/>
+					</overlay>
+					<overlay text="62" height="60px" width="100px" leadsTo="ask_sex" x="1104px" y="199px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="62"/>
+					</overlay>
+					<overlay text="63" height="60px" width="100px" leadsTo="ask_sex" x="1104px" y="260px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="63"/>
+					</overlay>
+					<overlay text="64" height="60px" width="100px" leadsTo="ask_sex" x="1104px" y="321px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="64"/>
+					</overlay>
+					<overlay text="65" height="60px" width="100px" leadsTo="ask_sex" x="1104px" y="382px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="65"/>
+					</overlay>
+					<overlay text="66" height="60px" width="100px" leadsTo="ask_sex" x="1104px" y="443px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="66"/>
+					</overlay>
+					<overlay text="67" height="60px" width="100px" leadsTo="ask_sex" x="1104px" y="504px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="67"/>
+					</overlay>
+					<overlay text="68" height="60px" width="100px" leadsTo="ask_sex" x="1104px" y="565px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="68"/>
+					</overlay>
+					<overlay text="69" height="60px" width="100px" leadsTo="ask_sex" x="1104px" y="626px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="69"/>
+					</overlay>
+					<overlay text="70" height="60px" width="100px" leadsTo="ask_sex" x="1104px" y="687px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="70"/>
+					</overlay>
+					<overlay text="71" height="60px" width="100px" leadsTo="ask_sex" x="1104px" y="748px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="71"/>
+					</overlay>
+					<overlay text="72" height="60px" width="100px" leadsTo="ask_sex" x="1104px" y="809px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="72"/>
+					</overlay>
+					<overlay text="73+" height="60px" width="100px" leadsTo="ask_sex" x="1104px" y="870px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+					<variable id="age" operation="add" value="73"/>
+					</overlay>
+				</image>
+			</media>
+		</subject>
+	
+		<subject id="ask_sex">
+			<media>
+				<image src="media/sex.png">
+				<overlay text="Male ♂" height="100px" width="200px" leadsTo="ask_education" x="700px" y="300px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+				<variable id="sex" operation="add" value="1"/>
+				</overlay>
+				<overlay text="Female ♀" height="100px" width="200px" leadsTo="ask_education" x="1000px" y="300px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+				<variable id="sex" operation="add" value="2"/>
+				</overlay>
+				<overlay text="Prefer not to say" height="80px" width="200px" leadsTo="ask_education" x="850px" y="500px" backgroundColor="blue"  shape = "rectangle" fontSize = "18pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+				<variable id="sex" operation="add" value="3"/>
+				</overlay>
+				<overlay text="◄Previous" leadsTo="ask_age" height="60px" width="200px" x="50px" y="800px" backgroundColor="blue"  shape = "rectangle" fontSize = "22pt" alpha = "0.4" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="age" operation="multiply" value="0" />
+						</overlay>
+				</image>
+			</media>
+		</subject>
+			<subject id="ask_education">
+			
+			<media>
+				<image src="media/education.png">
+				<overlay text="No high school diploma" height="80px" width="600px" leadsTo="odds" x="650px" y="250px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+				<variable id="education" operation="add" value="1"/>
+				</overlay>
+				<overlay text="High school diploma" height="80px" width="600px" leadsTo="odds" x="650px" y="331px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+				<variable id="education" operation="add" value="2"/>
+				</overlay>
+				<overlay text="Intermediate vocational education (MBO)" height="80px" width="600px" leadsTo="odds" x="650px" y="412px" backgroundColor="blue"  shape = "rectangle" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+				<variable id="education" operation="add" value="3"/>
+				</overlay>
+				<overlay text="Associate degree" height="80px" width="600px" leadsTo="odds" x="650px" y="493px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+				<variable id="education" operation="add" value="4"/>
+				</overlay>
+				<overlay text="Bachelor's degree" height="80px" width="600px" leadsTo="odds" x="650px" y="574px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+				<variable id="education" operation="add" value="5"/>
+				</overlay>
+				<overlay text="Master's degree" height="80px" width="600px" leadsTo="odds" x="650px" y="655px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+				<variable id="education" operation="add" value="6"/>
+				</overlay>
+				<overlay text="Professional degree" height="80px" width="600px" leadsTo="odds" x="650px" y="736px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+				<variable id="education" operation="add" value="7"/>
+				</overlay>
+				<overlay text="Doctorate degree" height="80px" width="600px" leadsTo="odds" x="650px" y="817px" backgroundColor="blue"  shape = "rectangle" fontSize = "24pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial">
+				<variable id="education" operation="add" value="8"/>
+				</overlay>
+				<overlay text="◄Previous" leadsTo="ask_sex" height="60px" width="200px" x="50px" y="800px" backgroundColor="blue"  shape = "rectangle" fontSize = "22pt" alpha = "0.4" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sex" operation="multiply" value="0" />
+						</overlay>
+				</image>
+			</media>
+		</subject>
+		<subject id="odds">
+				<media>	
+					<image src="media/odds.png">
+						
+						<overlay text="Start" leadsTo="simulation1" height="300px" width="300px" x="850px" y="550px" backgroundColor="cyan"  shape = "rectangle" fontSize = "40pt" alpha = "0.4" hoverAlpha = "0.8" fontFamily = "arial" />
+						
+						<overlay text="◄Previous" leadsTo="simulation1" height="60px" width="200px" x="50px" y="750px" backgroundColor="blue"  shape = "rectangle" fontSize = "22pt" alpha = "0.4" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="education" operation="multiply" value="0" />
+						</overlay>
+			</image>
+				</media>	
+        </subject>
+		<subject id="simulation1">
+				<media>	
+					<youtube id="EaepbrIVgtM" leadsTo="simulation1">
+						<overlay text="1/13" height="30px" width="30px" x="1770px" y="0px" backgroundColor="black"  shape = "square" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.2" fontFamily = "arial" />
+						<overlay text="Keep straight 50%" height="300px" width="300px" leadsTo="simulation2" x="760px" y="350px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "20pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial">
+						<variable id="sim1" operation="add" value="1" />
+						</overlay>
+						<overlay text="Turn 50%" height="200px" width="200px" leadsTo="simulation2" x="1350px" y="350px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "20pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim1" operation="add" value="2" />
+						</overlay>
+						
+						<overlay text="You are driving at 50km/h over an intersection through a green light. A woman" height="51px" width="1000px" x="450px" y="750px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="with a young child is crossing illegally right in front of you. You can keep " height="51px" width="1000px" x="450px" y="800px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="driving and hit the woman and child or crash into the traffic light." height="50px" width="1000px" x="450px" y="850px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1"  fontFamily = "arial" />
+						<overlay text="◄Previous" leadsTo="odds" height="60px" width="200px" x="50px" y="800px" backgroundColor="blue"  shape = "rectangle" fontSize = "22pt" alpha = "0.4" hoverAlpha = "0.8" fontFamily = "arial" >
+						</overlay>
+					</youtube>
+				</media>
+					
+        </subject>
+        <subject id="simulation2">
+			<media>	
+					<youtube id="yVsm4j1X6CI" leadsTo="simulation2">
+						<overlay text="2/13" height="30px" width="30px" x="1770px" y="0px" backgroundColor="black"  shape = "square" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.2" fontFamily = "arial" />
+						<overlay text="Keep straight 60%" height="300px" width="300px" leadsTo="simulation3" x="720px" y="350px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "20pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial">
+						<variable id="sim2" operation="add" value="1" />
+						</overlay>
+						<overlay text="Turn 50%" height="250px" width="250px" leadsTo="simulation3" x="1200px" y="350px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim2" operation="add" value="2" />
+						</overlay>
+						<overlay text="You are driving at 50 km/h. Two people are running in the middle of the road." height="51px" width="1000px" x="450px" y="750px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="A woman is walking beside the road. You can choose to keep driving and hit " height="51px" width="1000px" x="450px" y="800px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="the people running or quickly turn your car and hit the woman beside the road. " height="50px" width="1000px" x="450px" y="850px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1"  fontFamily = "arial" />
+					<overlay text="◄Previous" leadsTo="simulation1" height="60px" width="200px" x="50px" y="800px" backgroundColor="blue"  shape = "rectangle" fontSize = "22pt" alpha = "0.4" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim1" operation="multiply" value="0" />
+						</overlay>
+					</youtube>
+				</media>
+        </subject>
+        <subject id="simulation3">
+            <media>
+                <youtube id="dle7tUoaQeA" leadsTo="simulation3">
+						<overlay text="3/13" height="30px" width="30px" x="1770px" y="0px" backgroundColor="black"  shape = "square" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.2" fontFamily = "arial" />
+						<overlay text="Keep straight 50%" height="250px" width="250px" leadsTo="simulation4" x="700px" y="480px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "20pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial">
+						<variable id="sim3" operation="add" value="1" />
+						</overlay>
+						<overlay text="Turn 40%" height="200px" width="200px" leadsTo="simulation4" x="1400px" y="350px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "20pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim3" operation="add" value="2" />
+						</overlay>
+						<overlay text="You are driving at 50 km/h. A child is chasing his ball that bounces over " height="51px" width="1000px" x="450px" y="750px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="the road, without paying attention to you. You can choose to keep straight" height="51px" width="1000px" x="450px" y="800px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text=" or crash into a tree." height="50px" width="1000px" x="450px" y="850px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1"  fontFamily = "arial" />
+						<overlay text="◄Previous" leadsTo="simulation2" height="60px" width="200px" x="50px" y="800px" backgroundColor="blue"  shape = "rectangle" fontSize = "22pt" alpha = "0.4" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim2" operation="multiply" value="0" />
+						</overlay>
+					</youtube>
+            </media>
+        </subject>
+        <subject id="simulation4">
+            <media>
+                <youtube id="AnXm-JNbJhE" leadsTo="simulation4">
+						<overlay text="4/13" height="30px" width="30px" x="1770px" y="0px" backgroundColor="black"  shape = "square" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.2" fontFamily = "arial" />
+						<overlay text="Keep straight 50% (both)" height="300px" width="300px" leadsTo="simulation5" x="800px" y="420px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "18pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial">
+						<variable id="sim4" operation="add" value="1" />
+						</overlay>
+						<overlay text="Turn 15%" height="200px" width="200px" leadsTo="simulation5" x="1300px" y="400px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "20pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim4" operation="add" value="2" />
+						</overlay>
+						<overlay text="You are driving at 50 km/h. A car is driving the wrong way on your lane " height="51px" width="1000px" x="450px" y="750px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="towards you. An old lady is on the sidewalk in front of a parked. " height="51px" width="1000px" x="450px" y="800px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="You can choose to keep straight or turn your car towards the old lady." height="50px" width="1000px" x="450px" y="850px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1"  fontFamily = "arial" />
+						<overlay text="◄Previous" leadsTo="simulation3" height="60px" width="200px" x="50px" y="800px" backgroundColor="blue"  shape = "rectangle" fontSize = "22pt" alpha = "0.4" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim3" operation="multiply" value="0" />
+						</overlay>
+					</youtube>
+            </media>
+        </subject>
+		        <subject id="simulation5">
+            <media>
+                <youtube id="jTS5EMQP1HU" leadsTo="simulation5">
+						<overlay text="5/13" height="30px" width="30px" x="1770px" y="0px" backgroundColor="black"  shape = "square" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.2" fontFamily = "arial" />
+						<overlay text="Keep straight 50% (both)" height="300px" width="300px" leadsTo="simulation6" x="800px" y="420px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "18pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial">
+						<variable id="sim5" operation="add" value="1" />
+						</overlay>
+
+						<overlay text="Turn 15%" height="200px" width="200px" leadsTo="simulation6" x="1300px" y="400px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim5" operation="add" value="2" />
+						</overlay>
+						<overlay text="Here you are in the same situation, only this time there is a man " height="51px" width="1000px" x="450px" y="750px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="with a boy on his shoulders. You can choose to keep straight or " height="51px" width="1000px" x="450px" y="800px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="turn towards the man and boy." height="50px" width="1000px" x="450px" y="850px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1"  fontFamily = "arial" />
+						<overlay text="◄Previous" leadsTo="simulation4" height="60px" width="200px" x="50px" y="800px" backgroundColor="blue"  shape = "rectangle" fontSize = "22pt" alpha = "0.4" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim4" operation="multiply" value="0" />
+						</overlay>
+					</youtube>
+            </media>
+        </subject>
+		      <subject id="simulation6">
+            <media>
+                <youtube id="Pc7Agd9WA7M" leadsTo="simulation6">
+						<overlay text="6/13" height="30px" width="30px" x="1770px" y="0px" backgroundColor="black"  shape = "square" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.2" fontFamily = "arial" />
+						<overlay text="Keep straight 75% (both)" height="300px" width="300px" leadsTo="simulation7" x="800px" y="420px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "18pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial">
+						<variable id="sim6" operation="add" value="1" />
+						</overlay>
+
+						<overlay text="Turn 40%" height="200px" width="200px" leadsTo="simulation7" x="1500px" y="400px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim6" operation="add" value="2" />
+						</overlay>
+						<overlay text="You are driving at 60 kilometers per hour. A car suddenly drives onto " height="51px" width="1000px" x="450px" y="750px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="the road from a parking space. There is a woman walking on the sidewalk. " height="51px" width="1000px" x="450px" y="800px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="You can either keep straight to hit the car or turn and hit the woman." height="50px" width="1000px" x="450px" y="850px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1"  fontFamily = "arial" />
+						<overlay text="◄Previous" leadsTo="simulation5" height="60px" width="200px" x="50px" y="800px" backgroundColor="blue"  shape = "rectangle" fontSize = "22pt" alpha = "0.4" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim5" operation="multiply" value="0" />
+						</overlay>
+					</youtube>
+            </media>
+        </subject>  
+	<subject id="simulation7">
+            <media>
+                <youtube id="8FWhFODxSnw" leadsTo="simulation7">
+						<overlay text="7/13" height="30px" width="30px" x="1770px" y="0px" backgroundColor="black"  shape = "square" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.2" fontFamily = "arial" />
+						<overlay text="Keep straight 65% (you)" height="300px" width="300px" leadsTo="simulation8" x="700px" y="450px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "18pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial">
+						<variable id="sim7" operation="add" value="1" />
+						</overlay>
+
+						<overlay text="Turn 50%" height="200px" width="200px" leadsTo="simulation8" x="1050px" y="500px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim7" operation="add" value="2" />
+						</overlay>
+						<overlay text="You are driving straight at a car that is standing still in the middle of" height="51px" width="1000px" x="450px" y="750px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="the road. There are a man and a girl standing next to the road. Your breaks" height="51px" width="1000px" x="450px" y="800px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="are failing. Do you crash into the car or do you turn towards the man and girl." height="50px" width="1000px" x="450px" y="850px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1"  fontFamily = "arial" />
+						<overlay text="◄Previous" leadsTo="simulation6" height="60px" width="200px" x="50px" y="800px" backgroundColor="blue"  shape = "rectangle" fontSize = "22pt" alpha = "0.4" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim6" operation="multiply" value="0" />
+						</overlay>
+					</youtube>
+            </media>
+        </subject>
+		       <subject id="simulation8">
+
+            <media>
+                <youtube id="FLw5LfdQq3U" leadsTo="simulation8">
+						<overlay text="8/13" height="30px" width="30px" x="1770px" y="0px" backgroundColor="black"  shape = "square" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.2" fontFamily = "arial" />
+						<overlay text="Keep straight 20% (you)" height="300px" width="300px" leadsTo="simulation9" x="800px" y="420px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "18pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial">
+						<variable id="sim8" operation="add" value="1" />
+						</overlay>
+
+						<overlay text="Turn 5%" height="200px" width="200px" leadsTo="simulation9" x="350px" y="400px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "24pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim8" operation="add" value="2" />
+						</overlay>
+						<overlay text="You are driving 90 kilometers per hour on a highway, when suddenly there is a " height="51px" width="1000px" x="450px" y="750px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="pile up of crashed cars in front of you. The only way to save yourself is to " height="51px" width="1000px" x="450px" y="800px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="take the emergency lane where 2 people are standing. Do you crash into the " height="51px" width="1000px" x="450px" y="850px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1"  fontFamily = "arial" />
+						
+						<overlay text="cars or turn towards the emergency lane." height="50px" width="1000px" x="450px" y="900px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1"  fontFamily = "arial" />
+						<overlay text="◄Previous" leadsTo="simulation7" height="60px" width="200px" x="50px" y="800px" backgroundColor="blue"  shape = "rectangle" fontSize = "22pt" alpha = "0.4" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim7" operation="multiply" value="0" />
+						</overlay>
+					</youtube>
+            </media>
+        </subject> 
+		<subject id="simulation9">
+            <media>
+                <youtube id="CX5FVJnXTQ4" leadsTo="simulation9">
+						<overlay text="9/13" height="30px" width="30px" x="1770px" y="0px" backgroundColor="black"  shape = "square" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.2" fontFamily = "arial" />
+						<overlay text="Keep straight 50%" height="250px" width="250px" leadsTo="simulation10" x="1000px" y="450px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "19pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial">
+						<variable id="sim9" operation="add" value="1" />
+						</overlay>
+
+						<overlay text="Turn 50%" height="200px" width="200px" leadsTo="simulation10" x="700px" y="400px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim9" operation="add" value="2" />
+						</overlay>
+						<overlay text="Turn 60%" height="200px" width="200px" leadsTo="simulation10" x="1300px" y="400px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim9" operation="add" value="3" />
+						</overlay>
+						<overlay text="You are driving at 60 kilometers per hour. A man and a woman are trying to " height="51px" width="1000px" x="450px" y="750px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="run across the road. You can choose to keep straight and hit the man, turn " height="51px" width="1000px" x="450px" y="800px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="left to hit the woman or turn right to crash into a tree." height="51px" width="1000px" x="450px" y="850px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1"  fontFamily = "arial" />
+						<overlay text="◄Previous" leadsTo="simulation8" height="60px" width="200px" x="50px" y="800px" backgroundColor="blue"  shape = "rectangle" fontSize = "22pt" alpha = "0.4" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim8" operation="multiply" value="0" />
+						</overlay>
+						</youtube>
+            </media>
+        </subject>
+					<subject id="simulation10">
+            <media>
+                <youtube id="ACaPuak3nA8" leadsTo="simulation10">
+						<overlay text="10/13" height="30px" width="30px" x="1770px" y="0px" backgroundColor="black"  shape = "square" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.2" fontFamily = "arial" />
+						<overlay text="Straight 10%" height="200px" width="200px" leadsTo="simulation11" x="900px" y="450px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial">
+						<variable id="sim10" operation="add" value="1" />
+						</overlay>
+
+						<overlay text="Turn 25%" height="200px" width="200px" leadsTo="simulation11" x="560px" y="450px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim10" operation="add" value="2" />
+						</overlay>
+						<overlay text="Turn 30%" height="200px" width="200px" leadsTo="simulation11" x="1350px" y="400px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim10" operation="add" value="3" />
+						</overlay>
+						<overlay text="You are driving 70 kilometers per hour, when a little girl on her bike crosses " height="51px" width="1050px" x="450px" y="750px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="the street. Her mother is running after her. You can choose to stay straight to hit" height="51px" width="1050px" x="450px" y="800px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="the girl, turn to hit the mother instead, or turn the other way to crash into a tree." height="51px" width="1050px" x="450px" y="850px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1"  fontFamily = "arial" />
+						<overlay text="◄Previous" leadsTo="simulation9" height="60px" width="200px" x="50px" y="800px" backgroundColor="blue"  shape = "rectangle" fontSize = "22pt" alpha = "0.4" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim9" operation="multiply" value="0" />
+						</overlay>
+						</youtube>
+            </media>
+        </subject>
+				<subject id="simulation11">
+            <media>
+                <youtube id="xKOvs_7kbfA" leadsTo="simulation11">
+						<overlay text="11/13" height="30px" width="30px" x="1770px" y="0px" backgroundColor="black"  shape = "square" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.2" fontFamily = "arial" />
+						<overlay text="Straight 60%" height="200px" width="200px" leadsTo="simulation12" x="900px" y="450px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "20pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial">
+						<variable id="sim11" operation="add" value="1" />
+						</overlay>
+
+						<overlay text="Turn 55%" height="200px" width="200px" leadsTo="simulation12" x="1360px" y="450px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim11" operation="add" value="2" />
+						</overlay>
+			
+						<overlay text="You are driving 50 kilometers per hour. Right in front of you, two people are trying to" height="51px" width="1150px" x="450px" y="750px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text=" run across the road without looking at you. A man is walking on the sidewalk. You can" height="51px" width="1150px" x="450px" y="800px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="choose to keep straight to hit the people crossing or turn to hit the man on the sidewalk." height="51px" width="1150px" x="450px" y="850px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1"  fontFamily = "arial" />
+						<overlay text="◄Previous" leadsTo="simulation10" height="60px" width="200px" x="50px" y="800px" backgroundColor="blue"  shape = "rectangle" fontSize = "22pt" alpha = "0.4" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim10" operation="multiply" value="0" />
+						</overlay>
+						</youtube>
+            </media>
+        </subject>
+	<subject id="simulation12">
+            <media>
+                <youtube id="rYKOMJvOi8k" leadsTo="simulation12">
+						<overlay text="12/13" height="30px" width="30px" x="1770px" y="0px" backgroundColor="black"  shape = "square" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.2" fontFamily = "arial" />
+						<overlay text="Keep straight 20% (both)" height="350px" width="350px" leadsTo="simulation13" x="800px" y="320px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "20pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial">
+						<variable id="sim12" operation="add" value="1" />
+						</overlay>
+
+						<overlay text="Turn 20% (people behind)" height="350px" width="350px" leadsTo="simulation13" x="1360px" y="350px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "20pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim12" operation="add" value="2" />
+						</overlay>
+			
+						<overlay text="You are driving when suddenly a car turns towards your side of the road straight at you. " height="51px" width="1150px" x="450px" y="750px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="Three people, including a child, are on their bicycles behind you. You can dodge the " height="51px" width="1150px" x="450px" y="800px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="oncoming car by turning to your right or keep straight to take the hit for the people " height="51px" width="1150px" x="450px" y="850px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1"  fontFamily = "arial" />
+						<overlay text="cycling behind you." height="51px" width="1150px" x="450px" y="900px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1"  fontFamily = "arial" />
+						
+						<overlay text="◄Previous" leadsTo="simulation11" height="60px" width="200px" x="50px" y="800px" backgroundColor="blue"  shape = "rectangle" fontSize = "22pt" alpha = "0.4" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim11" operation="multiply" value="0" />
+						</overlay>
+						</youtube>
+            </media>
+        </subject>
+				<subject id="simulation13">
+            <media>
+                <youtube id="86nnSbj0ejw" leadsTo="simulation13">
+						<overlay text="13/13" height="30px" width="30px" x="1770px" y="0px" backgroundColor="black"  shape = "square" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.2" fontFamily = "arial" />
+						<overlay text="Keep straight 50%" height="270px" width="270px" leadsTo="end" x="700px" y="450px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "22pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial">
+						<variable id="sim13" operation="add" value="1" />
+						</overlay>
+
+						<overlay text="Turn 50%" height="200px" width="200px" leadsTo="end" x="1200px" y="450px" backgroundColor="#ff00ff"  shape = "oval" fontSize = "24pt" alpha = "0.2" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim13" operation="add" value="2" />
+						</overlay>
+			
+						<overlay text="You are approaching a crosswalk at 50 kilometers per hour. There is a woman with her " height="51px" width="1150px" x="450px" y="750px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="child walking across the sidewalk. Your breaks are failing. You can keep straight to " height="51px" width="1150px" x="450px" y="800px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1" fontFamily = "arial" />
+						<overlay text="hit the woman and child or turn to crash into a metal pole." height="51px" width="1150px" x="450px" y="850px" backgroundColor="black" fontSize = "20pt" alpha = "1" hoverAlpha = "1"  fontFamily = "arial" />
+						<overlay text="◄Previous" leadsTo="simulation12" height="60px" width="200px" x="50px" y="800px" backgroundColor="blue"  shape = "rectangle" fontSize = "22pt" alpha = "0.4" hoverAlpha = "0.8" fontFamily = "arial" >
+						<variable id="sim12" operation="multiply" value="0" />
+						</overlay>
+						</youtube>
+            </media>
+        </subject>	
+		<subject id="end">
+            <media>
+                <image src="media/end.png"/>
+            </media>
+        </subject>
+	</playlist>    
+</ximpel>

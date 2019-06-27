@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Self-driving car survey</title>
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/hammerjs/2.0.8/hammer.min.js"></script>
+		<link rel="stylesheet" href="ximpel/ximpel.css" type="text/css" />
+		<script type="text/javascript" src="ximpel/ximpel.min.js"></script>
+
+		<script type="text/javascript">
+			$( document ).ready(function(){
+
+				// Define a XimpelApp object by passing the following arguments:
+				// - The appId which is just a unique name for this presentation.
+				// - The path to the playlist file relative to this html document.
+				// - The path to the config file relative to this html document
+				// - An object containing multiple optional settings such a the
+				//   the width/height of the app and the element to use.
+				var myApp = new ximpel.XimpelApp(
+					'ximpelapp',
+					'playlist2.xml', 
+					'config.xml', 
+					{'appElement': 'ximpel',
+					 'appWidth': '1280px',
+					 'appHeight': '720px'
+					}
+				);
+
+				// After creating a XimpelApp object tell the object to load the given playlist and config file.
+				myApp.load( {
+					'autoPlay': true
+				}).done( function(){
+					// This function is executed once the ximpel app has finished loading the playlist 
+					// and config file and has been fully initialized (ie its ready to play or it is 
+					// already playing if autoplay was set to true). This function can be used to interact
+					// with the ximpel app using external javascript.
+					var player = myApp.ximpelPlayer;
+					
+					// Init score display
+					var showScore = player.getConfigProperty('showScore');
+					
+					if (showScore){
+						$('.scoreContainer').show();
+						$('#scoreA').text(0);
+						// Add more score initializations here
+						
+						player.addEventHandler( 'variable_updated', function( variableId ){
+							$('#' + variableId).text( player.getVariable( variableId ) );
+							if (variableId == "sim13"){
+							$.ajax({
+                type: "POST",
+                url: "post.php" ,
+                data: { id: 0, age: player.getVariable("age") ,sex: player.getVariable("sex"),education:player.getVariable("education"), sim1:player.getVariable("sim1") , sim2:player.getVariable("sim2") , sim3:player.getVariable("sim3") , sim4:player.getVariable("sim4") , sim5:player.getVariable("sim5") , sim6:player.getVariable("sim6") , sim7:player.getVariable("sim7") , sim8:player.getVariable("sim8") , sim9:player.getVariable("sim9") , sim10:player.getVariable("sim10") , sim11:player.getVariable("sim11") , sim12:player.getVariable("sim12") , sim13:player.getVariable("sim13") , sim14:player.getVariable("sim14") , sim15:player.getVariable("sim15") },
+                success : function() { 
+				console.log("Success");
+}
+                    // here is the code that will run on client side after running clear.php on server
+
+                    // function below reloads current page
+                    
+                        
+                    
+
+                })};
+            });
+						}
+					});
+					
+				}.bind(this));
+			
+		</script>
+	</head>
+
+	<body>
+
+	</body> 
+</html>

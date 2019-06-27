@@ -1,0 +1,8 @@
+<ximpel>
+	<config>
+	
+		<enableControls>true</enableControls>
+		<controlsDisplayMethod>overlay</controlsDisplayMethod>
+		<showScore>true</showScore>
+	</config>
+</ximpel>
